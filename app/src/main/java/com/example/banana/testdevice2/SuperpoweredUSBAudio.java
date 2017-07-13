@@ -11,7 +11,7 @@ import android.hardware.usb.UsbManager;
 
 // This class handles USB device permissions, attaching and detaching a device.
 public class SuperpoweredUSBAudio {
-    private static final String ACTION_USB_PERMISSION = "com.example.banana.testdevice2.USB_PERMISSION";
+    private static final String ACTION_USB_PERMISSION = "com.superpowered.USBAudio.USB_PERMISSION";
     private PendingIntent permissionIntent;
     private Context context;
     private SuperpoweredUSBAudioHandler handler;
